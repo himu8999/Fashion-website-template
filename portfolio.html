@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haaken</title>
+  <link rel="stylesheet" href=".CSS/style4.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+      </style>
+</head>
+
+<body>
+  <nav class="nave">
+    <header class="bg-transparent position-absolute p-4 w-100 parent">
+      <section class=" mx-auto h-100 d-flex justify-content-between ">
+
+        <span class="fw-bold logo text-light ">
+          <img src="./images/Illustration/h1-logo-1.png" class="logo" alt="">
+        </span>
+
+        <ul class="d-none d-xl-block d-xl-flex gap-5 pt-3 list-unstyled">
+          <li><a href="home.html" class="liss active text-decoration-none">HOME</a></li>
+          <li><a href="ABOUT.HTML" class="liss text-decoration-none">ABOUT US</a></li>
+          <li><a href="shop.html" class="liss text-decoration-none">SHOP</a></li>
+          <li><a href="portfolio.html" class="liss text-decoration-none">PORTFOLIO</a></li>
+          <li><a href="blog.html" class="liss text-decoration-none">BLOG</a></li>
+        </ul>
+
+        <span class="d-flex gap-4 fw-bold">
+          <img src="./images/Illustration/man.svg" alt=""    class="d-none d-xl-block" width="18px">
+          <img src="./images/Illustration/search.svg" alt="" class="d-none d-xl-block" width="18px">
+          <img src="./images/Illustration/bag.svg" alt="" width="18px">
+         <span data-bs-toggle="offcanvas" data-bs-target="#two" class="d-xl-none">
+           <img src="./images/Background/icons8-menu-64.png"  alt=""  width="35px">
+          </span> 
+          <span data-bs-toggle="offcanvas" data-bs-target="#one" class="d-none pt-3 d-xl-block">
+            <img src="./images/Illustration/menu.svg" alt="" width="25px">
+          </span>
+        </span>
+      </section>
+    </header>
+  </nav>
+  <div class="offcanvas offcanvas-end h-100" id="one" style="background-image: url(./images/Background/sidearea-background-img.jpg);" >
+    <div class="offcanvas-header">
+      <button type="button" class="bg-transparent" data-bs-dismiss="offcanvas">
+        <img src="./images/Illustration/cross.svg" width="30px" alt="">
+      </button>
+    </div>
+    <div class="offcanvas-body soham">
+      <img src="./images/Illustration/sidearea-logo-img.png" width="300px" alt="">
+      <h6 class="fs-1 side_head">HAAKEN INC.</h6>
+      <p class="text-center">A theme with an attitude that reflects contemporary fashion sensibilities. This is Haaken</p>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-top w-100 h-50" id="two">
+    <div class="offcanvas-header">
+      <span>
+      </span>
+      <button type="button" class="bg-transparent border-none" data-bs-dismiss="offcanvas">
+        <img src="./images/Illustration/cross.svg" width="30px" alt="">
+      </button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="list-unstyled">
+        <a href="home.html"><li class="liss text-decoration-none fw-bold">HOME</li></a>
+        <a href="ABOUT.HTML"><li class="liss text-decoration-none fw-bold">ABOUT US</li></a>
+        <a href="shop.html"><li class="liss text-decoration-none fw-bold">SHOP</li></a>
+        <a href="portfolio.html"><li class="liss text-decoration-none fw-bold">PORTFOLIO</li></a>
+        <a href="blog.html"><li class="liss text-decoration-none fw-bold">BLOG</li></a>
+      </ul>
+    </div>
+  </div>
+
+<section class="porto d-flex flex-wrap justify-content-evenly align-items-center">
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name ">THE ART OF FASHION</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img2"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">POWER OF SPORTS</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+  
+  
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img4"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">FASHIONED LOVE</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+  
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img5"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">BUSINESS CASUAL</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+  
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img8"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">CREATIVE SKILLS</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+  
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img9"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">DIGITAL FASHION</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+  
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img3"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">URBAN AREA</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img6"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">ACTIVE WEAR</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column justify-content-center align-items-center like">
+    <div class="port port_img7"></div>
+    <div class="text-center pt-4 pb-4 mb-4">
+      <h3 class="port_name">SIMPLICITY</h3>
+      <p><a href="#" class="text-dark view">VIEW MORE</a></p>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="last p-3 d-md-flex flex-wrap gap-5 flex-xl-row justify-content-evenly align-items-center">
+  <div class="foot_head pt-5">
+    <img src="./images/Illustration/h1-logo-light-1.png" width="100px" alt="">
+    <p class="pt-3 ye">More than a fashion statement, more than a store. Haaken</p>
+    <img src="./images/Illustration/footer-img.png" alt="">
+  </div>
+
+  <div class="foot_1 pt-5">
+    <h4 class="shop">SHOPPING</h4>
+    <ul class="list-unstyled">
+      <li class="lis">Gift Card</li>
+      <li class="lis">Wishlist</li>
+      <li class="lis">Checkout</li>
+      <li class="lis">Delivery</li>
+    </ul>
+  </div>
+
+  <div class="foot_2 pt-5">
+    <h4 class="shop">COMPANY</h4>
+    <ul class="list-unstyled">
+      <li class="lis">About Us</li>
+      <li class="lis">Pricing Plan</li>
+      <li class="lis">Contact Us</li>
+      <li class="lis">FAQ</li>
+    </ul>
+  </div>
+
+  <div class="foot_3 pt-5">
+    <h4 class="shop">SUBSCRIBE FOR NEWSLETTER</h4>
+    <div class="news">
+      <input type="email" name="" class="p-2 bton" placeholder="Email address" id="">
+      <button class="bton" type="submit"><img src="https://img.icons8.com/?size=100&id=12628&format=png&color=FFFFFF" width="18px" alt=""></button>
+    </div>
+    <div class="pt-5">
+      <a href="#"><img src="https://img.icons8.com/?size=100&id=dz63urxyxSdO&format=png&color=FFFFFF" width="30px" alt=""></a>
+      <a href="#"><img src="https://img.icons8.com/?size=100&id=11101&format=png&color=FFFFFF" width="30px" alt=""></a>
+      <a href="#"><img src="https://img.icons8.com/?size=100&id=60452&format=png&color=FFFFFF" width="30px" alt=""></a>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+  crossorigin="anonymous"></script>
+</body>
+
+<footer class="bg-light" style="height: 72px;">
+<p class="text-dark lis text-center pt-3 pt-xl-4">
+  Copyright © 2021 Qode Interactive, All Rights Reserved
+</p>
+</footer>

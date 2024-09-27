@@ -1,0 +1,249 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo{
+  width: 60px;
+}
+
+.soham {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ye {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.shop {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.lis {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.news {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.bton {
+  border: none;
+  background-color: transparent;
+}
+
+.last{
+  background-color: black;
+}
+
+.side_head {
+  font-style: italic;
+}
+
+.gallry{
+  padding-top: 100px;
+}
+
+.imge{
+  width: 260px;
+  height: 300px;
+}
+
+.img1{
+  background-image: url(../images/Background/product1-featured-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img2{
+  background-image: url(../images/Background/product2-featured-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img3{
+  background-image: url(../images/Background/product3-featured-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img4{
+  background-image: url(../images/Background/product4-featured-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img5{
+  background-image: url(../images/Background/product7-featured-img-951x1024.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img6{
+  background-image: url(../images/Background/product8-featured-img-951x1024.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro_name {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.price {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.work{
+  padding-top: 60px;
+  /* padding-bottom: 60px; */
+  height: 2300px;
+}
+
+.work_main{
+  width: 270px;
+}
+
+.work_img{
+  background-image: url(../images/Background/post1-featured-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 150px;
+}
+
+.work_img2{
+  background-image: url(../images/Background/post2-featured-img-1024x615.jpg);
+}
+
+.work_img3{
+  background-image: url(../images/Background/post3-featured-img.jpg);
+}
+
+.date{
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.work_name{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 5px;
+}
+
+.par{
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.read {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+@media (min-width:768px){
+
+  .work{
+    height: 2200px;
+  }
+
+  .work_main{
+    width: 650px;
+  }
+  
+  .work_img{
+    width: 650px;
+    height: 350px;
+  }
+}  
+
+
+@media (min-width:1200px) {
+
+  .liss {
+    color: black;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .barlowed {
+    height: 1600px;
+    width: 100%;
+  }
+
+  .last {
+    height: 400px;
+  }
+
+  .gallry{
+    padding-top: 120px;
+  }
+
+  .imge{
+    width: 550px;
+    height: 600px;
+  }
+  
+  .work{
+    height: 3500px;
+  }
+
+  .work_name{
+    font-size: 40px;
+    letter-spacing: 8px;
+  }
+
+  .work_main{
+    width: 1200px;
+  }
+  
+  .work_img{
+    width: 1200px;
+    height: 750px;
+  }
+
+}  

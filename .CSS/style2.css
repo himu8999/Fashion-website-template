@@ -1,0 +1,248 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo{
+  width: 60px;
+}
+
+.liss {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.soham {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt {
+  padding-top: 70px;
+}
+
+.main_img{
+  height: 500px;
+  background-image: url(../images/Background/about-title-img-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.abo {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 10px;
+  font-size: 43px;
+  color: white;
+}
+
+.testimonials{
+  padding-top: 120px;
+  height: 1250px;
+}
+
+.testi{
+  width: 250px;
+  text-align: center;
+}
+
+.nifty {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 10px;
+}
+
+.para {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.read {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+.random{
+  background-image: url(../images/Background/h3-parallax-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.work{
+  padding-top: 60px;
+  /* padding-bottom: 60px; */
+  height: 1600px;
+}
+
+.work_main{
+  width: 270px;
+}
+
+.work_img{
+  background-image: url(../images/Background/h1-post-1-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 150px;
+}
+
+.work_img2{
+  background-image: url(../images/Background/h1-post-2-img.jpg);
+}
+
+.work_img3{
+  background-image: url(../images/Background/h1-post-3-img.jpg);
+}
+
+.date{
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.work_name{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 5px;
+}
+
+.par{
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.banner{
+  background-image: url(../images/Background/about-img-1.jpg);
+  width: auto;
+  height: 120px;
+  background-size: cover;
+}
+
+.ye {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.shop {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 2px;
+}
+
+.lis {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.news {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bton {
+  border: none;
+  background-color: transparent;
+}
+
+.side_head {
+  font-style: italic;
+}
+
+@media (min-width:768px){
+
+  .testimonials{
+    height: 730px;
+  }
+
+  .work{
+    height: 2000px;
+  }
+
+  .work_main{
+    width: 650px;
+  }
+  
+  .work_img{
+    width: 650px;
+    height: 350px;
+  }
+}  
+
+@media (min-width:1200px) {
+
+  .abt {
+    padding-top: 80px;
+  }
+
+  .abo {
+    font-size: 89px;
+  }
+
+  .main_img{
+    height: 700px;
+  }
+
+  .testimonials{
+    height: 450px;
+  }
+
+  .barlowed {
+    height: 1600px;
+    width: 100%;
+  }
+
+  .last {
+    height: 400px;
+  }
+
+  .work{
+    height: 700px;
+  }
+
+  .work_main{
+    width: 400px;
+  }
+  
+  .work_img{
+    width: 400px;
+    height: 200px;
+  }
+
+  .banner{
+    height: 300px;
+  }
+
+}  

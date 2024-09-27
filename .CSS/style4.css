@@ -1,0 +1,167 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo{
+  width: 60px;
+}
+
+.soham {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ye {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.shop {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.lis {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.news {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.last{
+  background-color: black;
+}
+
+.bton {
+  border: none;
+  background-color: transparent;
+}
+
+.side_head {
+  font-style: italic;
+}
+
+.porto {
+  padding-top: 80px;
+}
+
+.port{
+  width: 260px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.port_img{
+  background-image: url(../images/Background/port-1-img-11.jpg);
+}
+
+.port_img2{
+  background-image: url(../images/Background/port-1-img-1.jpg);
+}
+
+.port_img3{
+  background-image: url(../images/Background/port-1-img-2.jpg);
+}
+
+.port_img4{
+  background-image: url(../images/Background/port-1-img-5.jpg);
+}
+
+.port_img5{
+  background-image: url(../images/Background/port-1-img-7.jpg);
+}
+
+.port_img6{
+  background-image: url(../images/Background/port-1-img-6.jpg);
+}
+
+.port_img7{
+  background-image: url(../images/Background/port-1-img-3.jpg);
+}
+
+.port_img8{
+  background-image: url(../images/Background/port-1-img-9.jpg);
+}
+
+.port_img9{
+  background-image: url(../images/Background/port-1-img-10.jpg);
+}
+
+.port_name{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 8px;
+}
+
+.view{
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.like{
+  width: 260px;
+}
+
+@media (min-width:1200px) {
+
+  .liss {
+    color: black;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .barlowed {
+    height: 1600px;
+    width: 100%;
+  }
+
+  .last {
+    height: 400px;
+  }
+
+  .porto{
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .like{
+    width: 450px;
+  }
+
+  .port {
+    width: 450px;
+    height: 300px;
+  }
+
+}  
